@@ -68,13 +68,13 @@ Now we have <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;2(A
 
 <br>
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" title="\LARGE \mathcal L^k = \sum_{i=1}^{AN}l^k(i,i+AN) + l^k(i+AN,i)" width="300" /></a>
+  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" title="\LARGE \mathcal L^k = \sum_{i=1}^{AN}l^k(i,i+AN) + l^k(i+AN,i)" width="200" /></a>
 </p>
 
 where
 
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" title="\LARGE l^k(i,j) = -\log \frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" width="400" /></a>
+  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" title="\LARGE l^k(i,j) = -\log \frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" width="200" /></a>
 </p>
 
 
@@ -168,54 +168,18 @@ So far we have implemented the baseline methods <b>DeCLUTR</b> and <b>FineBERT</
 <a id="1">[1]</a> 
 Lucas Dixon, John Li, Jeffrey Sorensen, Nithum Thain, and Lucy Vasserman. Measuring and mitigating unintended bias in text classification. In proceedings of the 2018AAAI/ACM Conference on AI, Ethics, and Society, pages 67–73, 2018.
 
+<a id="2">[2]</a> 
+Matt Gardner, Joel Grus, Mark Neumann, Oyvind Tafjord, Pradeep Dasigi, Nelson F.Liu, Matthew Peters, Michael Schmitz, and Luke S. Zettlemoyer.  Allennlp:  A deepsemantic natural language processing platform. 2017
+
 <a id="3">[3]</a> 
 John M Giorgi, Osvald Nitski, Gary D Bader, and Bo Wang. Declutr: Deep contrastivelearning for unsupervised textual representations.arXiv preprint arXiv:2006.03659, 2020.
 
 <a id="4">[4]</a> 
 Jon Green, Jared Edgerton, Daniel Naftel, Kelsey Shoub, and Skyler J. Cranmer. Elusiveconsensus:  Polarization in elite communication on the COVID-19 pandemic. Science Advances, 6(28):eabc2717, July 2020.
 
-<a id="6">[6]</a> 
-Negar Mokhberian, Andrés Abeliuk, Patrick Cummings, and Kristina Lerman. Moralframing and ideological bias of news.arXiv preprint arXiv:2009.12979, 2020.
-
 <a id="5">[5]</a> 
 Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, and Jeff Dean. Distributed representations of words and phrases and their compositionality. In advances in neural information processing systems, pages 3111–3119, 2013.
 
-<!-- 
-## Bias detection using Deep Supervised Contrastive Learning (Goodfellas)
+<a id="6">[6]</a> 
+Negar Mokhberian, Andrés Abeliuk, Patrick Cummings, and Kristina Lerman. Moralframing and ideological bias of news.arXiv preprint arXiv:2009.12979, 2020.
 
-You can use the [editor on GitHub](https://github.com/ghafeleb/goodfellas.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ghafeleb/goodfellas.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
- -->
