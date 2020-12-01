@@ -68,13 +68,13 @@ Now we have <a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;2(A
 
 <br>
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" title="\LARGE \mathcal L^k = \sum_{i=1}^{AN}l^k(i,i+AN) + l^k(i+AN,i)" width="200" /></a>
+  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;\mathcal&space;L^k&space;=&space;\sum_{i=1}^{AN}l^k(i,i&plus;AN)&space;&plus;&space;l^k(i&plus;AN,i)" title="\LARGE \mathcal L^k = \sum_{i=1}^{AN}l^k(i,i+AN) + l^k(i+AN,i)" width="300" /></a>
 </p>
 
 where
 
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" title="\LARGE l^k(i,j) = -\log \frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" width="200" /></a>
+  <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\LARGE&space;l^k(i,j)&space;=&space;-\log&space;\frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" title="\LARGE l^k(i,j) = -\log \frac{exp(sim(e^k_i,e^k_j)/\tau)}{\sum_{m=1}^{2AN}exp(sim(e^k_i,e^{1-k}_m)/\tau)}" width="400" /></a>
 </p>
 
 
